@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Portfolio | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">YOUR NAME</div>
+        <div class="links">
+            <a href="#posters">Posters</a>
+            <a href="#designs">Design</a>
+            <a href="#photo">Photography</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Creative Work</h1>
+        <p>A collection of graphic design, posters, and street photography.</p>
+    </header>
+
+    <section class="gallery">
+        <div class="item">
+            <img src="images/poster-1.jpg" alt="Poster Design">
+            <div class="caption">Poster Series 01</div>
+        </div>
+
+        <div class="item">
+            <img src="images/photo-1.jpg" alt="Photography Work">
+            <div class="caption">Urban Photography</div>
+        </div>
+
+        <div class="item">
+            <img src="images/design-1.jpg" alt="Graphic Design">
+            <div class="caption">Brand Identity</div>
+        </div>
+        
+        </section>
+
+    <footer>
+        <p>&copy; 2026 | Built with Code</p>
+    </footer>
+
+</body>
+</html>
